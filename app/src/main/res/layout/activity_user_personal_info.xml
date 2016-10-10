@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:id="@+id/Relative_propic"
+            android:background="@mipmap/profilepic"
+
+
+            >
+            <com.codeginger.frkout.RoundedImageView
+                android:id="@+id/ivUserProfile"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@mipmap/profileicon"
+                android:scaleType="centerInside"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtUserPerName"
+                android:text="Akshay kumar"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ffffff"
+
+                android:layout_alignTop="@+id/ivUserProfile"
+                android:layout_toRightOf="@+id/ivUserProfile"
+                android:layout_toEndOf="@+id/ivUserProfile" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtUserAdd"
+                android:text="Airoli ,Navi Mumbai"
+                android:textColor="#ffffff"
+
+                android:layout_below="@+id/txtUserPerName"
+                android:layout_toRightOf="@+id/ivUserProfile"
+                android:layout_toEndOf="@+id/ivUserProfile" />
+
+            <ImageButton
+                android:layout_marginTop="5dp"
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+
+                android:background="@mipmap/following"
+                android:layout_below="@+id/txtUserAdd"
+                android:layout_toRightOf="@+id/ivUserProfile"
+                android:layout_toEndOf="@+id/ivUserProfile"
+                android:id="@+id/imageButton" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2"
+                android:layout_marginBottom="15dp"
+                android:layout_alignParentBottom="true"
+                >
+
+
+
+
+           <!-- <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="620 folowers"
+                android:background="#0000000"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="79dp"
+                android:layout_marginStart="79dp"
+                android:id="@+id/button"
+                android:alpha="0.9"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+               <View
+                   android:layout_width="15dp"
+                   android:layout_height="50dp"
+                   android:id="@+id/view"
+                   android:layout_alignParentTop="true"
+                   android:layout_toRightOf="@+id/button"
+                   android:layout_toEndOf="@+id/button"></View>
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="400 foloweing"
+                    android:background="#0000000"
+                    android:textColor="#ffffff"
+                    android:layout_alignParentTop="true"
+                    android:layout_toRightOf="@+id/view"
+                    android:layout_toEndOf="@+id/view"
+                    android:layout_marginLeft="42dp"
+                    android:layout_marginStart="42dp" />-->
+
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

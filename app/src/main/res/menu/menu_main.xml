@@ -1,0 +1,24 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+       <item
+        android:id="@+id/mnMain_submit"
+        android:title="Submit"
+        android:orderInCategory="100"
+        android:visible="false"
+        android:icon="@mipmap/okicon"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/mnMain_search"
+        android:title="Submit"
+        android:orderInCategory="100"
+        android:visible="false"
+        android:icon="@mipmap/search"
+        app:showAsAction="always" />
+
+
+
+
+
+</menu>
